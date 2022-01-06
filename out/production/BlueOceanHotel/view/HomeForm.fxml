@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="homeFormContext" prefHeight="446.0" prefWidth="823.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeFormController">
+   <children>
+      <ImageView fitHeight="463.0" fitWidth="823.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%202.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="32.0" layoutY="34.0" text="Day Packages" textFill="#fff2f2" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="482.0" layoutY="34.0" text="Relax" textFill="#fff2f2" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="320.0" layoutY="241.0" text="Menu" textFill="#fff2f2" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="164.0" layoutX="11.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%203.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="155.0" layoutX="441.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%204.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="164.0" layoutX="280.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%205.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="184.0" layoutY="67.0" text="We have a select range of ">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="88.0" text="packages for couples,families" />
+      <Label layoutX="184.0" layoutY="109.0" text="and small groups!." />
+      <Label layoutX="184.0" layoutY="130.0" text="Book your day package " />
+      <Label layoutX="184.0" layoutY="151.0" text="inadvance &amp; enjoy a stress free" />
+      <Label layoutX="184.0" layoutY="172.0" text="day in beachside paradise....." />
+      <Label layoutX="590.0" layoutY="66.0" text="Reserve your room at Blue Ocean" />
+      <Label layoutX="590.0" layoutY="88.0" text="Hotel." />
+      <Label layoutX="590.0" layoutY="109.0" text="You can book Single,Double," />
+      <Label layoutX="590.0" layoutY="130.0" text="Triple or Quad rooms here.." />
+      <Label layoutX="424.0" layoutY="297.0" text="An insight into the scrumptious variety of food &amp;" />
+      <Label layoutX="424.0" layoutY="318.0" text="drinks served exclusively at Blue Ocean.." />
+      <Label layoutX="457.0" layoutY="339.0" text=" *Local Meal" />
+      <Label layoutX="457.0" layoutY="360.0" text=" *Chinese Meal" />
+      <Label layoutX="450.0" layoutY="381.0" text="  *French Meal" />
+      <JFXButton buttonType="RAISED" layoutX="21.0" layoutY="415.0" onAction="#backTo" text="&lt;&lt;Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="deleteMealContext" prefHeight="460.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DeleteMealFormController">
+   <children>
+      <ImageView fitHeight="469.0" fitWidth="692.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2017.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="241.0" layoutY="33.0" text="Delete Meal Package" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="144.0" layoutY="382.0" onAction="#goDelete" prefHeight="51.0" prefWidth="154.0" style="-fx-background-color: #011F31;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="404.0" layoutY="382.0" onAction="#delete" prefHeight="51.0" prefWidth="154.0" style="-fx-background-color: #011F31;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TableView fx:id="tblDeleteMeal" layoutX="129.0" layoutY="105.0" prefHeight="209.0" prefWidth="530.0">
+        <columns>
+          <TableColumn fx:id="colDeleteMon" prefWidth="75.0" style="-fx-background-color: #E3EBF6;" text="Mon" />
+            <TableColumn fx:id="colDeleteTue" prefWidth="75.0" style="-fx-background-color: #E3EBF6;" text="Tue" />
+            <TableColumn fx:id="colDeleteWed" prefWidth="75.0" style="-fx-background-color: #E3EBF6;" text="Wed" />
+            <TableColumn fx:id="colDeleteThu" prefWidth="75.0" style="-fx-background-color: #E3EBF6;" text="Thu" />
+            <TableColumn fx:id="colDeleteFri" prefWidth="75.0" style="-fx-background-color: #E3EBF6;" text="Fri" />
+            <TableColumn fx:id="colDeleteSat" prefWidth="75.0" style="-fx-background-color: #E3EBF6;" text="Sat" />
+            <TableColumn fx:id="colDeleteSun" prefWidth="75.0" style="-fx-background-color: #E3EBF6;" text="Sun" />
+        </columns>
+      </TableView>
+      <Label layoutX="43.0" layoutY="137.0" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: #8FC5DA;" text="Breakfast">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="181.0" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: #8FC5DA;" text="Lunch">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="225.0" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: #8FC5DA;" text="Snack">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="269.0" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: #8FC5DA;" text="Dinner">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

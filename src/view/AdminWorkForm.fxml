@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AdminWorkContext" prefHeight="377.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminWorkFormController">
+   <children>
+      <ImageView fitHeight="410.0" fitWidth="692.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2014.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="263.0" layoutY="39.0" onAction="#room" prefHeight="51.0" prefWidth="128.0" style="-fx-background-color: #070B7D;" text="Rooms" textFill="#fffbfb">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="6.0" layoutY="330.0" onAction="#goBack" text="&lt;&lt;Back">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="213.0" layoutY="132.0" onAction="#meal" prefHeight="51.0" prefWidth="228.0" style="-fx-background-color: #070B7D;" text="Meal Package" textFill="#fffbfb">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="200.0" layoutY="225.0" onAction="#incomeReport" prefHeight="51.0" prefWidth="254.0" style="-fx-background-color: #070B7D;" text="Income Report" textFill="#fffbfb">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

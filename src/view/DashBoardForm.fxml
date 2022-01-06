@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashBoardContext" prefHeight="469.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+   <children>
+      <ImageView fitHeight="469.0" fitWidth="823.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%201.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="14.0" text="Blue Ocean Hotel" textFill="#fff9f9">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="79.0" text="WELCOME TO">
+         <font>
+            <Font name="SimSun-ExtB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="128.0" text="Blue Ocean Hotel">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="365.0" text="Bring Your Family And Friends To Blue Ocean Hotel,Hikkaduwa.">
+         <font>
+            <Font name="Sylfaen" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="393.0" text="SRI Lanka's PREMIER BEACH RESORT ">
+         <font>
+            <Font name="Sylfaen" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="411.0" text="Offering A Luxury Hotel Experience In Galle With Jazzy " />
+      <Label layoutX="59.0" layoutY="432.0" text="Tunes And Tropical Vibes,While You Perfect That Island Glow." />
+      <JFXButton buttonType="RAISED" layoutX="611.0" layoutY="11.0" onAction="#log" text="Log In" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="605.0" layoutY="48.0" onAction="#signUp" text="Sign Up" textFill="#fffdfd">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="512.0" layoutY="11.0" onAction="#contactTo" text="Contact" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="395.0" layoutY="8.0" onAction="#about" text="About Us" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="302.0" layoutY="8.0" onAction="#home" text="Home" textFill="#fffbfb">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Separator layoutX="313.0" layoutY="38.0" prefHeight="0.0" prefWidth="56.0" />
+   </children>
+</AnchorPane>

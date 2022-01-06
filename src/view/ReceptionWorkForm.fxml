@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="receptionWorkContext" prefHeight="383.0" prefWidth="672.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceptionWorkFormController">
+   <children>
+      <ImageView fitHeight="383.0" fitWidth="692.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2014.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="202.0" layoutY="67.0" onAction="#reserveARoom" prefHeight="51.0" prefWidth="254.0" style="-fx-background-color: #070B7D;" text="Reserve a Room" textFill="#fffbfb">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="318.0" onAction="#wentBack" text="&lt;&lt;Back">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="141.0" layoutY="185.0" onAction="#maintain" prefHeight="51.0" prefWidth="376.0" style="-fx-background-color: #070B7D;" text="Mark  Room Is Maintenance" textFill="#fffbfb">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

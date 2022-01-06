@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="logReceptionContext" prefHeight="457.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogReceptionFormController">
+   <children>
+      <ImageView fitHeight="457.0" fitWidth="703.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2026.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="256.0" layoutY="24.0" text="LOG IN" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="48.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtReceptionUser" labelFloat="true" layoutX="195.0" layoutY="132.0" promptText="UserName" unFocusColor="BLACK">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtReceptionPs" labelFloat="true" layoutX="195.0" layoutY="226.0" promptText="Password" unFocusColor="BLACK">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="195.0" layoutY="349.0" onAction="#logReception" prefHeight="51.0" prefWidth="125.0" style="-fx-background-color: #011F31;" text="Log" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="361.0" layoutY="349.0" onAction="#reception" prefHeight="51.0" prefWidth="125.0" style="-fx-background-color: #011F31;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="roomMaintainContext" prefHeight="456.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoomMaintainFormController">
+   <children>
+      <ImageView fitHeight="469.0" fitWidth="692.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2025.jpg" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="txtRoomNumber" labelFloat="true" layoutX="40.0" layoutY="34.0" promptText="Room No" unFocusColor="BLACK">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="40.0" layoutY="231.0" text="Available">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="123.0" layoutY="269.0" text="Yes">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="253.0" layoutY="261.0" text="No">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="278.0" layoutY="362.0" onAction="#goToMaintainRooms" prefHeight="37.0" prefWidth="137.0" style="-fx-background-color: #01446C;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <DatePicker layoutX="39.0" layoutY="107.0" prefHeight="31.0" prefWidth="263.0" promptText="Date" />
+      <JFXTimePicker layoutX="39.0" layoutY="169.0" prefHeight="31.0" prefWidth="263.0" promptText="Start Time" />
+      <JFXTimePicker editable="true" layoutX="415.0" layoutY="169.0" prefHeight="31.0" prefWidth="250.0" promptText="End Time" />
+   </children>
+</AnchorPane>

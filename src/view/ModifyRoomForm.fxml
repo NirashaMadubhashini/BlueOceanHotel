@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="modifyRoomContext" prefHeight="469.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ModifyRoomFormController">
+   <children>
+      <ImageView fitHeight="469.0" fitWidth="692.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2016.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="219.0" layoutY="33.0" text="Modify Room" textFill="#fffefe" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="115.0" layoutY="391.0" onAction="#room" prefHeight="51.0" prefWidth="154.0" style="-fx-background-color: #011F31;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="392.0" layoutY="391.0" onAction="#toBack" prefHeight="51.0" prefWidth="154.0" style="-fx-background-color: #011F31;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TableView fx:id="tblModifyRoom" layoutX="86.0" layoutY="195.0" prefHeight="182.0" prefWidth="483.0">
+        <columns>
+          <TableColumn fx:id="colModifyRoomNo" prefWidth="95.0" text="Room" />
+          <TableColumn fx:id="colModifyType" prefWidth="146.0" text="Type" />
+            <TableColumn fx:id="colModifyRoomBed" prefWidth="146.0" text="Bed Type" />
+            <TableColumn fx:id="colModifyRoomNoBed" prefWidth="95.0" text="Bed Num" />
+        </columns>
+      </TableView>
+      <JFXTextField fx:id="txtRoom" labelFloat="true" layoutX="86.0" layoutY="82.0" promptText="Room" unFocusColor="BLACK">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtRoomM" labelFloat="true" layoutX="86.0" layoutY="135.0" promptText="Type" unFocusColor="BLACK">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtBed" labelFloat="true" layoutX="328.0" layoutY="82.0" promptText=" BedType" unFocusColor="BLACK">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtBedNum" labelFloat="true" layoutX="327.0" layoutY="135.0" promptText="Bed Num" unFocusColor="BLACK">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>

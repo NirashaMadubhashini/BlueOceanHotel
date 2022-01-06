@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="selectMealContext" prefHeight="459.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SelectMealFormController">
+   <children>
+      <ImageView fitHeight="459.0" fitWidth="692.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2021.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2022.jpg" />
+         </image>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2023.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="476.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img%2024.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="62.0" layoutY="-1.0" text="Local" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="-1.0" text="Chinese" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="497.0" layoutY="-1.0" text="French" underline="true">
+         <font>
+            <Font name="Segoe UI Black" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="173.0" text="Rice &amp; Curry">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="212.0" text="String Hoppers">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="247.0" text="Hoppers">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="323.0" text="Milk Rice">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="288.0" text="Rottii">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="223.0" text="Dim Sums    ">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="258.0" text="Hot &amp; Sour Soup   ">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="293.0" text="Quick Noodles    ">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="328.0" text="Spring Rolls   ">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="363.0" text="Chicken with Chestnuts  ">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="497.0" layoutY="188.0" text="Coq au vin    ">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="497.0" layoutY="223.0" text="Cassoulet    ">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="478.0" layoutY="258.0" text="Chocolate Souffle">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="499.0" layoutY="293.0" text="Flamiche">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="499.0" layoutY="323.0" text="Salade Nicoise">
+         <font>
+            <Font name="Segoe UI Black" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="266.0" layoutY="408.0" onAction="#goToCheckMeal" prefHeight="37.0" prefWidth="137.0" style="-fx-background-color: #01446C;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>
