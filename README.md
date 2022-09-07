@@ -6,7 +6,7 @@ This is the second project of first semester done by using JavaFx
 *Java<br>
 *UI make using javaFx
 
-#DashBoard<br>
+<b>#DashBoard<br></b>
 ![DashBoard](src/assets/project/dashboard.png)<br>
 #SignUp<br>
 ![signUp](src/assets/project/SignUp.png)<br>
