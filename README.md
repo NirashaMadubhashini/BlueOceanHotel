@@ -8,7 +8,7 @@ This is the second project of first semester done by using JavaFx
 
 #DashBoard<br>
 ![DashBoard](src/assets/project/dashboard.png)<br>
-#signUp
+#signUp<br>
 ![signUp](src/assets/project/SignUp.png)<br>
 #login<br>
 ![login](src/assets/project/login.png)<br>
