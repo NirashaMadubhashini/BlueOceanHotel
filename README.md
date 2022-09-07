@@ -13,3 +13,8 @@ This is the second project of first semester done by using JavaFx
 #login<br>
 ![login](src/assets/project/login.png)<br>
 ![admin](src/assets/project/admin.png)
+#admin<br>
+![login](src/assets/project/admin%20dash.png)<br>
+![admin](src/assets/project/booking%20room.png)
+![admin](src/assets/project/meal.png)
+![admin](src/assets/project/Income.png)
