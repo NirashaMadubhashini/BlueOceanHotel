@@ -7,4 +7,5 @@ This is the second project of first semester done by using JavaFx
 *UI make using javaFx
 
 #login
-loging.png
+
+login.png
