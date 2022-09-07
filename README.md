@@ -32,6 +32,7 @@ This is the second project of first semester done by using JavaFx
 <b>#Reception<br></b>
 ![dash](src/assets/project/reception%20dash.png)<br>
 ![reserveroom](src/assets/project/booking%20dash.png)<br>
+<b>#Reservation<br></b>
 ![addguest](src/assets/project/guest%20details.png)<br>
 ![available](src/assets/project/Availability.png)<br>
 ![maintainroom](src/assets/project/room%20maintain.png)<br>
